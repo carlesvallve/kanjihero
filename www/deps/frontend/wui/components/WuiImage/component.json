@@ -1,0 +1,16 @@
+{
+	"name": "WuiImage",
+	"description": "Generic image wui component",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"WuiDom"
+	],
+	"paths": [
+		"../../core"
+	],
+	"scripts": [
+		"index.js"
+	]
+}

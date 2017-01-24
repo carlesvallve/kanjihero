@@ -1,0 +1,21 @@
+{
+	"name": "Basic",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"utils",
+		"Dungeon",
+		"Tile"
+	],
+	"paths": [
+		"../../../../../lib",
+		"../../../",
+		"../../tiles"
+	],
+	"styles": [
+	],
+	"scripts": [
+		"index.js"
+	]
+}

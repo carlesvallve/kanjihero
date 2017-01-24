@@ -1,0 +1,21 @@
+{
+	"name": "QuickSlots",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"utils",
+		"WuicSprite",
+		"Slot"
+	],
+	"paths": [
+		"../../../../lib",
+		"../../../../deps/frontend/wuic/core",
+		"../"
+	],
+	"styles": [
+	],
+	"scripts": [
+		"index.js"
+	]
+}

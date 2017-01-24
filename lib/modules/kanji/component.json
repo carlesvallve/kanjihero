@@ -1,0 +1,7 @@
+{
+	"name": "kanji",
+	"scripts": [
+		"client.js"
+	],
+	"main": "client.js"
+}

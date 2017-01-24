@@ -1,0 +1,35 @@
+{
+	"name": "landing",
+	"description": "The welcome screen",
+	"local": [
+		"mage",
+		"loader",
+		"logger",
+		"time",
+		"assets",
+		"archivist",
+		"session",
+
+		"WuiDom",
+		"utils",
+		"tweener",
+		"DefaultButton"
+	],
+	"paths": [
+		"../../../node_modules/mage/lib",
+		"../../../node_modules/mage/lib/modules",
+
+		"../../deps/frontend/wui/core",
+		"../../components/ui",
+		"../../deps",
+		"../../lib"
+	],
+	"scripts": [
+		"index.js",
+		"tilesets.js",
+		"assets.js"
+	],
+	"styles": [
+		"styles.less"
+	]
+}

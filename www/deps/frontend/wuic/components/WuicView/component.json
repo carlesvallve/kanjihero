@@ -1,0 +1,16 @@
+{
+	"name": "WuicView",
+	"description": "",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"WuicSprite"
+	],
+	"paths": [
+		"../../core"
+	],
+	"scripts": [
+		"index.js"
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"name": "WuiButton",
+	"description": "Generic button wui component",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"WuiDom",
+		"wuiButtonBehavior"
+	],
+	"paths": [
+		"../../core",
+		"../../behaviors"
+	],
+	"styles": [
+		"styles.css"
+	],
+	"scripts": [
+		"index.js"
+	]
+}

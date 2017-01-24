@@ -1,0 +1,22 @@
+{
+	"name": "Hero",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"utils",
+		"wuicTween",
+		"Ent"
+	],
+	"paths": [
+		"../../../../../lib",
+		"../../../../../deps/frontend/wuic/core",
+		"../../ai",
+		"../"
+	],
+	"styles": [
+	],
+	"scripts": [
+		"index.js"
+	]
+}

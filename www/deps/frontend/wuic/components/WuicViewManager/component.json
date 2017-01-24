@@ -1,0 +1,13 @@
+{
+	"name": "WuicViewManager",
+	"description": "",
+	"dependencies": {
+		"component/inherit": "*",
+		"Wizcorp/eventemitter": "*"
+	},
+	"local": [],
+	"paths": [],
+	"scripts": [
+		"index.js"
+	]
+}

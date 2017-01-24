@@ -1,0 +1,5 @@
+{
+	"name": "ImgLoader",
+	"local": ["mage"],
+	"scripts": ["index.js"]
+}

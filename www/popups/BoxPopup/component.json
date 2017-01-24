@@ -1,0 +1,21 @@
+{
+	"name": "BoxPopup",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"WuicView",
+		"WuicSprite",
+		"wuicTween",
+		"Button"
+	],
+	"paths": [
+		"../../deps",
+		"../../deps/frontend/wuic/core",
+		"../../deps/frontend/wuic/components",
+		"../../components/ui"
+	],
+	"scripts": [
+		"index.js"
+	]
+}

@@ -1,0 +1,1 @@
+exports.mapping = require('./mapping.js');

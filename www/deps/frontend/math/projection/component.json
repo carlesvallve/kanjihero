@@ -1,0 +1,7 @@
+{
+	"name": "projection",
+	"scripts": [
+		"index.js",
+		"perspective2D.js"
+	]
+}

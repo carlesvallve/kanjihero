@@ -1,0 +1,13 @@
+{
+	"name": "pgAudio",
+	"local": [
+		"pgCore",
+		"pgStorage"
+	],
+	"paths": [
+		".."
+	],
+	"scripts": [
+		"index.js"
+	]
+}

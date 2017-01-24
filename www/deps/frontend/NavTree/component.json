@@ -1,0 +1,12 @@
+{
+	"name": "NavTree",
+	"description": "Navigation API",
+	"version": "0.0.1",
+	"dependencies": {
+		"component/inherit": "*",
+		"Wizcorp/eventemitter": "*"
+	},
+	"scripts": [
+		"index.js"
+	]
+}

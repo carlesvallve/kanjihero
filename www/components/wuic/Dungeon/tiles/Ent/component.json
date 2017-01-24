@@ -1,0 +1,25 @@
+{
+	"name": "Ent",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"utils",
+		"WuicSprite",
+		"wuicTween",
+		"Tile",
+		"Projectile",
+		"AStar"
+	],
+	"paths": [
+		"../../../../../lib",
+		"../../../../../deps/frontend/wuic/core",
+		"../../ai",
+		"../"
+	],
+	"styles": [
+	],
+	"scripts": [
+		"index.js"
+	]
+}

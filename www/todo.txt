@@ -1,0 +1,76 @@
+// ------------------------------------
+// Features
+// ------------------------------------
+
+- autoexplore: 
+	- First button on left hot-slots should be 'autoexplore'.
+	- when clicking it, we should choose an optimal tile to go to:
+		- nearest nice visible item
+		- nearest unexplored tile
+	- when we arrive to the selected tile, repeat the process until we see a monster or change level
+
+- stats:
+	- generate stats data files for:
+		- hero
+		- monsters
+		- items
+		- weapons
+		- equipment
+
+- inventory:
+	- drop items
+	- equipment double configuration:
+		- when equiping a weapon in equipment weaponR, equip it in hotSlots weaponR too ---------> OK!
+		- when equiping a weapon in equipment weaponL, equip it in hotSlots weaponL too ---------> OK!
+
+-combat:
+	- ranged attacks:
+		- we should be able to perform ranged attacks if we have a ranged weapon equipped -------> OK!
+
+- monster ai:
+	- monsters have to update their fov each time we/they move, but not render it, so they know whats going on
+	- monsters should move at his own speed rate when we move
+	- not sure if we should use A* or use a simplier follow/escape algorithm
+
+- monster dialogs:
+	monsters will occasionally say things to you, sentences chosen at random from a sentences list
+
+- dungeon generators:
+	- parameters with a bit of controlled random to generate more variable dungeons
+	- implement cave generation algorithm
+	- create other lights that alter lightIntensity in other areas than the player
+	- implement room elements in certain rooms ---------------------------------------------------------------> OK!
+	- implement wall decorations -----------------------------------------------------------------------------> OK!
+	- find perfect algorithm for wall directions:
+		- walls should be propperly named
+		- imgType co-relation of walls and doors
+		- wall ends (only one wall as neighbour) should calculate ending direction and apply correct graphic
+		- wall that is 3wall type, has to be single if all other walls are in the same direction
+	- floors
+		- find nice graphical co-relation with walls
+		- there are too few nice floor tiles, and too much not-usable 
+		- find more suitable tiles and generate new tileset
+		- there is a weird line in between floor tiles, probably because of the canvas antialiasing -> fix it
+
+
+// ------------------------------------
+// Bugs
+// ------------------------------------
+
+
+- weird tiles on furniture and walldeco:
+	- rethink what we do with files on walldeco/png_problematic
+
+- wall directions: 4 wall tile doesnt work (?) looks like w-e... -> OK!
+
+- hero doesnt remember selectedWeapon when he change dungeon level...
+
+- inventory layout is only good for 480px screens,
+  we must make it more responsive to diferent resolutions
+
+
+// ------------------------------------
+// Misc
+// ------------------------------------
+
+

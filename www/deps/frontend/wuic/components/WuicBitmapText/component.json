@@ -1,0 +1,14 @@
+{
+	"name": "WuicBitmapText",
+	"description": "",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"WuicSprite"
+	],
+	"paths": [],
+	"scripts": [
+		"index.js"
+	]
+}

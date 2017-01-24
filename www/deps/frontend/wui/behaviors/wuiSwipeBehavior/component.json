@@ -1,0 +1,7 @@
+{
+	"name": "wuiSwipeBehavior",
+	"description": "Generic swipe wui behavior",
+	"scripts": [
+		"index.js"
+	]
+}

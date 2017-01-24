@@ -1,0 +1,11 @@
+{
+	"name": "WuiDom",
+	"description": "Core Class for Wui Dom",
+	"dependencies": {
+		"component/inherit": "*",
+		"Wizcorp/eventemitter": "*"
+	},
+	"scripts": [
+		"index.js"
+	]
+}

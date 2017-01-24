@@ -1,0 +1,17 @@
+{
+	"name": "wui_example",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"NavTree",
+		"WuiView",
+		"WuiButton"
+	],
+	"paths": [
+		"../..",
+		"../components"
+	],
+	"scripts": [
+	]
+}

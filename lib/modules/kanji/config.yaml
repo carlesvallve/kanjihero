@@ -1,0 +1,9 @@
+dashboard:
+    pages:
+        kanji:
+            name: Kanji
+            listed: true
+            apps:
+                - dev
+                - cms
+

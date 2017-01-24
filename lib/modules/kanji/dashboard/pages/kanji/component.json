@@ -1,0 +1,15 @@
+{
+	"name": "kanji",
+	"local": [
+		"mage",
+		"loader",
+		"kanji"
+	],
+	"paths": [
+		"../../../../../../node_modules/mage/lib",
+		"../../../.."
+	],
+	"scripts": [
+		"index.js"
+	]
+}

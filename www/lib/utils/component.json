@@ -1,0 +1,16 @@
+{
+	"name": "utils",
+	"dependencies": {},
+	"local": [
+		"mage",
+		"ImgLoader"
+	],
+
+	"paths": [
+		"../../lib",
+		"../../deps"
+	],
+	"scripts": [
+		"index.js"
+	]
+}

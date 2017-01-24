@@ -1,0 +1,6 @@
+{
+	"name": "pgAnalytics",
+	"scripts": [
+		"index.js"
+	]
+}

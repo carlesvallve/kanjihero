@@ -1,0 +1,29 @@
+{
+	"name": "Dungeon",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"utils",
+		"WuicSprite",
+		"wuicTween",
+		"Tile",
+		"Furniture",
+		"Item",
+		"Hero",
+		"Monster",
+		"Fov"
+	],
+	"paths": [
+		"../../../lib",
+		"../../../deps/frontend/wuic/core",
+		"./ai",
+		"./tiles",
+		"."
+	],
+	"styles": [
+	],
+	"scripts": [
+		"index.js"
+	]
+}

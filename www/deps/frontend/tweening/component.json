@@ -1,0 +1,21 @@
+{
+	"name": "tweening",
+	"dependencies": {
+		"component/inherit": "*",
+		"Wizcorp/eventemitter": "*"
+	},
+	"local": [
+		"DoublyList",
+		"PriorityList",
+		"CircularDoublyList"
+	],
+	"paths": [
+		"../containers"
+	],
+	"scripts": [
+		"index.js",
+		"interpolations.js",
+		"eases.js"
+	]
+
+}

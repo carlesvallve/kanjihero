@@ -1,0 +1,28 @@
+{
+	"name": "Ui",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"utils",
+		"WuicSprite",
+		"wuicTween",
+		"wuicSwipeBehavior",
+		
+		"Console",
+		"Portrait",
+		"QuickSlots",
+		"Inventory"
+	],
+	"paths": [
+		"../../../lib",
+		"../../../deps/frontend/wuic/core",
+		"../../../deps/frontend/wuic/behaviors",
+		"."
+	],
+	"styles": [
+	],
+	"scripts": [
+		"index.js"
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "wuicSwipeBehavior",
+	"description": "",
+	"dependencies": {
+	},
+	"local": [],
+	"paths": [],
+	"scripts": [
+		"index.js"
+	]
+}

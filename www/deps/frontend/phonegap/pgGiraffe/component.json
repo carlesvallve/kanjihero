@@ -1,0 +1,6 @@
+{
+	"name": "pgGiraffe",
+	"scripts": [
+		"index.js"
+	]
+}

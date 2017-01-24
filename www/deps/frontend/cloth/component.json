@@ -1,0 +1,12 @@
+{
+	"name": "cloth",
+	"local": [
+		"DoublyList"
+	],
+	"paths": [
+		"../containers"
+	],
+	"scripts": [
+		"index.js"
+	]
+}

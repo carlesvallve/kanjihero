@@ -1,0 +1,6 @@
+{
+	"name": "browserDetection",
+	"scripts": [
+		"index.js"
+	]
+}

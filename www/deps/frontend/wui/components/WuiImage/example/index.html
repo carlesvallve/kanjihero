@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="index.js"></script>
+</head>
+<body>
+
+<h1>Example: Image component</h1>
+
+<button id="btnPreloadShow">Preload and show</button>
+<button id="btnShow">Just show</button>
+<input type="checkbox" id="broken"> Force error
+
+<div id="workspace"></div>
+
+<script type="text/javascript">
+(function () {
+
+	var WuiImage = require('WuiImage');
+
+	var workspace = document.getElementById('workspace');
+	var url = 'http://www.solstation.com/stars/earth3am.jpg';
+	var img;
+
+	function getUrl() {
+		if (document.getElementById('broken').checked) {
+			return 'http://www.example.com/foobar';
+		}
+
+		return url + '?' + Date.now();
+	}
+
+	document.getElementById('btnPreloadShow').onclick = function () {
+		if (img) {
+			img.destroy();
+		}
+
+		img = new WuiImage(getUrl());
+
+		var onLoaded = function () {
+			workspace.appendChild(img.rootElement);
+			img.removeEventListener('error', onError);
+		};
+
+		var onError = function () {
+			window.alert('Error loading the image');
+			img.removeEventListener('loaded', onLoaded);
+		};
+
+		img.once('loaded', onLoaded);
+		img.once('error', onError);
+		img.load();
+	};
+
+	document.getElementById('btnShow').onclick = function () {
+		if (img) {
+			img.destroy();
+		}
+
+		img = new WuiImage(getUrl());
+
+		img.load();
+
+		workspace.appendChild(img.rootElement);
+	};
+
+
+
+}());
+
+</script>
+
+</body>
+</html>

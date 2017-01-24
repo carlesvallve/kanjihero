@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="build/build-minified.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+
+<script type="text/javascript">
+
+	(function (window) {
+
+		// include all component needed using Component
+		var NavTree = require('NavTree');
+		var WuiView = require('WuiView');
+		var WuiButton = require('WuiButton');
+		var inherit = require('inherit');
+
+		var navTree = new NavTree(null, { parentElement: document.querySelector('body') });
+
+		/**
+		 * @class
+		 * @classDesc Main view of the game
+		 */
+		function MainView() {
+			WuiView.call(this);
+			this.addClassNames('MainView');
+
+			var title, opening;
+			var nbOpenings = 0;
+
+			this.once('created', function (options) {
+				title = this.createChild('div', { className: 'title' });
+
+				var btnQuest = this.appendChild(new WuiButton('Quest!'));
+				var btnCard = this.appendChild(new WuiButton('Card!'));
+
+				btnQuest.on('tap', function () {
+					navTree.open('quest');
+				});
+
+				btnCard.on('tap', function () {
+					navTree.open('card');
+				});
+
+				opening = this.createChild('div', { className: 'opening' });
+
+			});
+
+			this.once('opening', function (params) {
+				title.setText('Welcome to this amazing demo!');
+			});
+
+			this.on('opening', function () {
+				nbOpenings += 1;
+				opening.setText(nbOpenings);
+			});
+
+			this.on('opened', function (params) {
+				this.getNavTree().clearHistory();
+			});
+
+			this.on('closed', function (params) {
+			});
+		}
+
+		inherit(MainView, WuiView);
+
+		/**
+		 * @class
+		 * @classDesc Quest selector
+		 */
+		function QuestView() {
+			WuiView.call(this);
+			this.addClassNames('QuestView');
+
+			this.once('opening', function (options) {
+				this.createChild('div', { className: 'title', text: 'Quest screen. Exciting!' });
+
+				var btn = this.appendChild(new WuiButton('Back!'));
+
+				btn.on('tap', function () {
+					navTree.back();
+				});
+			});
+		}
+
+		inherit(QuestView, WuiView);
+
+
+		/**
+		 * @class
+		 * @classDesc Deck management
+		 */
+		function CardView() {
+			WuiView.call(this);
+			this.addClassNames('CardView');
+
+			this.once('opening', function (options) {
+				this.createChild('div', { className: 'title', text: 'Deck management!' });
+
+				var content = this.createChild('div', { className: 'content' });
+
+				for (var i = 0; i < 10; i += 1) {
+					content.createChild('div', { className: 'card', text: i + 1 });
+				}
+
+				var btn = this.appendChild(new WuiButton('Back!'));
+
+				btn.on('tap', function () {
+					navTree.back();
+				});
+			});
+		}
+
+		inherit(CardView, WuiView);
+
+		navTree.register('main', new MainView());
+		navTree.register('quest', new QuestView());
+		navTree.register('card', new CardView());
+		navTree.open('main');
+
+	}(window));
+
+</script>
+
+</body>
+</html>

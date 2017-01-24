@@ -1,0 +1,11 @@
+{
+	"name": "WuicCanvas",
+	"description": "Parent Class for Wuic",
+	"dependencies": {
+		"component/inherit": "*",
+		"Wizcorp/eventemitter": "*"
+	},
+	"scripts": [
+		"index.js"
+	]
+}

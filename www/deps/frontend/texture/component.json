@@ -1,0 +1,14 @@
+{
+	"name": "texture",
+	"local": [
+		"surfaceInterpolations"
+	],
+	"paths": [
+		"../math"
+	],
+	"scripts": [
+		"index.js",
+		"mapping.js"
+	]
+
+}

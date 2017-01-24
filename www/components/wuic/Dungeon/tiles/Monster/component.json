@@ -1,0 +1,21 @@
+{
+	"name": "Monster",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"utils",
+		"wuicTween",
+		"Ent"
+	],
+	"paths": [
+		"../../../../../lib",
+		"../../../../../deps/frontend/wuic/core",
+		"../"
+	],
+	"styles": [
+	],
+	"scripts": [
+		"index.js"
+	]
+}

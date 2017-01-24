@@ -1,0 +1,13 @@
+{
+	"name": "wuicTween",
+	"dependencies": {
+		"component/inherit": "*",
+		"Wizcorp/eventemitter": "*"
+	},
+	"scripts": [
+		"index.js",
+		"cluster.js",
+		"sequence.js",
+		"tween.js"
+	]
+}

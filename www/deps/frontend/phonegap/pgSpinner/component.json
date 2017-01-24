@@ -1,0 +1,7 @@
+{
+	"name": "pgSpinner",
+	"description": "wizSpinner wrapper for PhoneGap plugin",
+	"scripts": [
+		"index.js"
+	]
+}

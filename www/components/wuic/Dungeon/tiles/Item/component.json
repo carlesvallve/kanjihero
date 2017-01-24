@@ -1,0 +1,21 @@
+{
+	"name": "Item",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"utils",
+		"wuicTween",
+		"Tile"
+	],
+	"paths": [
+		"../../../../../lib",
+		"../../../../../deps/frontend/wuic/core",
+		"../"
+	],
+	"styles": [
+	],
+	"scripts": [
+		"index.js"
+	]
+}

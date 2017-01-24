@@ -1,0 +1,20 @@
+{
+	"name": "Visor",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"utils",
+		"WuicSprite",
+		"wuicTween"
+	],
+	"paths": [
+		"../../../lib",
+		"../../../deps/frontend/wuic/core"
+	],
+	"styles": [
+	],
+	"scripts": [
+		"index.js"
+	]
+}

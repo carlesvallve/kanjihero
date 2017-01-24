@@ -1,0 +1,14 @@
+{
+	"name": "morphing",
+	"local": [
+		"surfaceInterpolations"
+	],
+	"paths": [
+		"../math"
+	],
+	"scripts": [
+		"index.js",
+		"imageMorphing.js",
+		"noiseMorphing.js"
+	]
+}

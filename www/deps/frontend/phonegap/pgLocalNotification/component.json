@@ -1,0 +1,6 @@
+{
+	"name": "pgLocalNotification",
+	"scripts": [
+		"index.js"
+	]
+}

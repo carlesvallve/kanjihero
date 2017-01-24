@@ -1,0 +1,7 @@
+{
+	"name": "wuiButtonBehavior",
+	"description": "Generic button wui behavior",
+	"scripts": [
+		"index.js"
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"name": "tweener",
+	"description": "Tweener function for simple animation",
+	"version": "0.0.1",
+	"scripts": [
+		"index.js"
+	]
+}

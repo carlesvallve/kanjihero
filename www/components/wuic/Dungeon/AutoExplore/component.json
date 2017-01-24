@@ -1,0 +1,15 @@
+{
+	"name": "AutoExplore",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+	],
+	"paths": [
+	],
+	"styles": [
+	],
+	"scripts": [
+		"index.js"
+	]
+}

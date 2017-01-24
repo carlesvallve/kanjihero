@@ -1,0 +1,7 @@
+{
+	"name": "pgCore",
+	"description": "Core module for wrapping PhoneGap function",
+	"scripts": [
+		"index.js"
+	]
+}

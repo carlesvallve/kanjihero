@@ -1,0 +1,12 @@
+{
+	"name": "pgSplashScreen",
+	"local": [
+		"pgCore"
+	],
+	"paths": [
+		".."
+	],
+	"scripts": [
+		"index.js"
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"name": "AStar",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"utils"
+	],
+	"paths": [
+		"../../../../../lib"
+	],
+	"styles": [
+	],
+	"scripts": [
+		"index.js"
+	]
+}

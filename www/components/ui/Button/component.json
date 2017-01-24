@@ -1,0 +1,22 @@
+{
+	"name": "Button",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"utils",
+		"WuicSprite",
+		"wuicButtonBehavior",
+		"wuicTween"
+	],
+	"paths": [
+		"../../../lib",
+		"../../../deps/frontend/wuic/core",
+		"../../../deps/frontend/wuic/behaviors"
+	],
+	"styles": [
+	],
+	"scripts": [
+		"index.js"
+	]
+}

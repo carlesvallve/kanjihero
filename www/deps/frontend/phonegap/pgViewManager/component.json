@@ -1,0 +1,11 @@
+{
+	"name": "pgViewManager",
+	"description": "Wrapper for native UIWebView, and message through views",
+	"dependencies": {
+		"component/inherit": "*",
+		"Wizcorp/eventemitter": "*"
+	},
+	"scripts": [
+		"index.js"
+	]
+}

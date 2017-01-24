@@ -1,0 +1,19 @@
+{
+	"name": "Tile",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"utils",
+		"WuicSprite"
+	],
+	"paths": [
+		"../../../../../lib",
+		"../../../../../deps/frontend/wuic/core"
+	],
+	"styles": [
+	],
+	"scripts": [
+		"index.js"
+	]
+}

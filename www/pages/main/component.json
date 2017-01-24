@@ -1,0 +1,29 @@
+{
+	"name": "main",
+	"description": "The page that runs the actual game",
+	
+	"local": [
+		"loader",
+		"WuicCanvas",
+		"WuicViewManager",
+		"WuicInspector",
+
+		"DungeonView"
+	],
+
+	"paths": [
+		"../../../node_modules/mage/lib",
+		"../../deps/frontend/wuic/core",
+		"../../deps/frontend/wuic/components",
+		"../../views",
+		"../../popups"
+	],
+
+	"scripts": [
+		"index.js"
+	],
+
+	"styles": [
+		"styles.less"
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "Fov",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+	],
+	"paths": [
+	],
+	"styles": [
+	],
+	"scripts": [
+		"index.js"
+	]
+}

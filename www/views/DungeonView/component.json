@@ -1,0 +1,30 @@
+{
+	"name": "DungeonView",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"utils",
+		"WuicView",
+		"wuicSwipeBehavior",
+		"wuicTween",
+		"Ui",
+		"Visor",
+		"Basic",
+		"Bsp",
+		"Cave"
+	],
+	"paths": [
+		"../../deps/frontend/wuic/core",
+		"../../deps/frontend/wuic/components",
+		"../../deps/frontend/wuic/behaviors",
+		"../../lib",
+		"../../components",
+		"../../components/wuic",
+		"../../components/wuic/Dungeon/generators",
+		"../"
+	],
+	"scripts": [
+		"index.js"
+	]
+}

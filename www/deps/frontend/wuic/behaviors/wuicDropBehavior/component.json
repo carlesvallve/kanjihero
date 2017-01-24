@@ -1,0 +1,11 @@
+{
+	"name": "wuicDropBehavior",
+	"description": "",
+	"dependencies": {
+	},
+	"local": [],
+	"paths": [],
+	"scripts": [
+		"index.js"
+	]
+}

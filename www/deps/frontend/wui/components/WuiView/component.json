@@ -1,0 +1,16 @@
+{
+	"name": "WuiView",
+	"description": "View Class for Wui Dom",
+	"dependencies": {
+		"component/inherit": "*"
+	},
+	"local": [
+		"WuiDom"
+	],
+	"paths": [
+		"../../core"
+	],
+	"scripts": [
+		"index.js"
+	]
+}
